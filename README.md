@@ -1,8 +1,10 @@
-# Watch.js 1.4.2 [Download](https://raw.github.com/melanke/Watch.JS/master/src/watch.js)
+# Watch.js 1.4.2 [Download](https://raw.githubusercontent.com/kiranmantha/Watch.JS/master/src/watch.js)
 
 ## About
 
 Watch.JS is a small library with a lot of possibilities. You may know that the "Observer" design pattern involves executing some function when an observed object changes. Other libraries exist that do this, but with Watch.JS you will not have to change the way you develop. Take a look at the examples to see how simple it is to add Watch.JS to your code.
+
+This is a fork from original [WatchJs](https://github.com/melanke/Watch.JS) with little modification with removal of setInterval which is a overhead.
 
 ## Compatible with all serious browsers :P
 Works with: IE 9+, FF 4+, SF 5+, WebKit, CH 7+, OP 12+, BESEN, Node.JS , Rhino 1.7+
@@ -17,7 +19,7 @@ Works with: IE 9+, FF 4+, SF 5+, WebKit, CH 7+, OP 12+, BESEN, Node.JS , Rhino 1
 
 #### Via NPM
 ```
-npm install melanke-watchjs
+npm install watchobj
 ```
 
 # Importing
@@ -25,7 +27,7 @@ npm install melanke-watchjs
 #### Import as ECMA2015 module
 
 ```javascript
-import WatchJS from 'melanke-watchjs';
+import WatchJS from 'watchobj';
 
 var watch = WatchJS.watch;
 var unwatch = WatchJS.unwatch;
@@ -35,7 +37,7 @@ var callWatchers = WatchJS.callWatchers;
 #### Require
 
 ```javascript
-var WatchJS = require("melanke-watchjs")
+var WatchJS = require("watchobj")
 var watch = WatchJS.watch;
 var unwatch = WatchJS.unwatch;
 var callWatchers = WatchJS.callWatchers;
@@ -43,7 +45,7 @@ var callWatchers = WatchJS.callWatchers;
 
 #### RequireJS
 ```javascript
-require("watch", function(WatchJS){
+require("watchobj", function(WatchJS){
     var watch = WatchJS.watch;
     var unwatch = WatchJS.unwatch;
     var callWatchers = WatchJS.callWatchers;

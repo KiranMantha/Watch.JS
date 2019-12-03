@@ -1,5 +1,5 @@
 {
-  "name": "melanke-watchjs-fork",
+  "name": "watchobj",
   "version": "1.5.0",
   "description": "A utility for watching object changes.",
   "main": "src/watch.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/melanke/Watch.JS.git"
+    "url": "git://github.com/KiranMantha/Watch.JS.git"
   },
   "keywords": [
     "watch",
     "object",
     "changes"
   ],
-  "author": "melanke",
+  "author": "KiranMantha",
   "license": "MIT",
   "readmeFilename": "README.md"
 }
