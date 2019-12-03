@@ -1,5 +1,5 @@
 {
-  "name": "melanke-watchjs",
+  "name": "melanke-watchjs-fork",
   "version": "1.5.0",
   "description": "A utility for watching object changes.",
   "main": "src/watch.js",
